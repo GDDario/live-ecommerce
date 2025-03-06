@@ -28,6 +28,7 @@ class LoginForm extends Form
      */
     public function authenticate(): void
     {
+        ds('Olá Lara Du');
         $this->ensureIsNotRateLimited();
 
         if (! Auth::attempt($this->only(['email', 'password']), $this->remember)) {
