@@ -14,4 +14,7 @@
             </div>
         </div>
     </div>
+
+    <x-mary-button label="Cancel" />
+    <x-mary-input label="Name" placeholder="Your name" icon="o-user" hint="Your full name" />
 </x-app-layout>
