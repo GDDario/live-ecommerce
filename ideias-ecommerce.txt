@@ -1,0 +1,7 @@
+- Menu pequeno, com efeito glassy ao ir para baixo (insider). Icone na sacolinha. Logo de tamanho bom. Logo - navegação - procura/sacola/conta (insider)
+- Banner pequeno (insider)
+- Home page - Sessão "populares" ou "mais vendidos", com as roupas embaixo
+- Home pape - antes do rodape - adicionar os reviews dos clientes, com estrelinhas e um textinho.
+- Preview das roupas com carrossel igual da Insider. Escolhe de cores igual da Basyc (porem selecionável)
+
+- Futuramente - timer de desconto (insider)
