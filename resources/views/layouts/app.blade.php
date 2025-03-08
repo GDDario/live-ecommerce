@@ -15,7 +15,10 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="font-sans antialiased">
-        <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
+        <div class="min-h-screen bg-white text-gray-950"
+{{--             style="background: url('https://sementesbiomatrix.com.br/blog/wp-content/uploads/2020/08/footer-bg.jpg')"--}}
+        >
+{{--        <div class="min-h-screen bg-gray-100 dark:bg-gray-900">--}}
             <livewire:layout.navigation />
 
             <!-- Page Heading -->

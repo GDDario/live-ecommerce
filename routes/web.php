@@ -2,7 +2,11 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::view('/', 'welcome');
+Route::view('/', 'pages.home-page')->name('home');
+Route::view('head', 'pages.home-page')->name('head');
+Route::view('torso', 'pages.home-page')->name('torso');
+Route::view('legs', 'pages.home-page')->name('legs');
+Route::view('feet', 'pages.home-page')->name('feet');
 
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
