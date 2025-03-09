@@ -1,4 +1,4 @@
-<nav class="lg:h-[60px] py-5 px-20 flex justify-between items-center gap-12 glassy-panel"
+<nav class="w-full lg:h-[60px] py-5 px-20 flex justify-between items-center gap-12 glassy-panel fixed top-0 left-0 z-[20]"
      style="border-top: none; border-left: none; border-right: none;">
     <div>
         LOGO MANEIRO

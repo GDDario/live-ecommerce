@@ -21,7 +21,7 @@
 
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     </head>
-    <body class="font-sans antialiased">
+    <body class="font-sans antialiased bg-white">
         <div class="min-h-screen bg-white text-gray-950"
 {{--             style="background: url('https://sementesbiomatrix.com.br/blog/wp-content/uploads/2020/08/footer-bg.jpg')"--}}
         >
@@ -38,7 +38,7 @@
             @endif
 
             <!-- Page Content -->
-            <main>
+            <main class="pt-16 bg-white">
                 {{ $slot }}
             </main>
         </div>
