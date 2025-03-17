@@ -1,5 +1,6 @@
-<nav class="w-full lg:h-[60px] py-5 px-20 flex justify-between items-center gap-12 glassy-panel fixed top-0 left-0 z-[20]"
-     style="border-top: none; border-left: none; border-right: none;">
+<nav
+    class="w-full lg:h-[60px] py-5 px-20 flex justify-between items-center gap-12 glassy-panel fixed top-0 left-0 z-[20]"
+    style="border-top: none; border-left: none; border-right: none;">
     <div>
         LOGO MANEIRO
     </div>
@@ -24,11 +25,19 @@
         </ul>
     </div>
 
-    <div class="flex gap-1">
-        <x-mary-button icon="o-question-mark-circle" class="btn-circle btn-ghost" tooltip-bottom="Ajuda"/>
-        <x-mary-button icon="o-magnifying-glass" class="btn-circle btn-ghost" tooltip-bottom="Pesquisar"/>
-        <x-mary-button icon="o-shopping-bag" class="btn-circle btn-ghost" tooltip-bottom="Sacola"/>
-        <x-mary-button icon="o-user" class="btn-circle btn-ghost" tooltip-bottom="Entrar"/>
+    <div class="flex gap-8">
+        <div class="flex gap-1">
+            <x-mary-button icon="o-question-mark-circle" class="btn-circle btn-ghost" tooltip-bottom="Ajuda"/>
+            <x-mary-button icon="o-magnifying-glass" class="btn-circle btn-ghost" tooltip-bottom="Pesquisar"/>
+            <x-mary-button icon="o-shopping-bag" class="btn-circle btn-ghost" tooltip-bottom="Sacola"/>
+            <a href="/login">
+                <x-mary-button icon="o-user" class="btn-circle btn-ghost" tooltip-bottom="Entrar"/>
+            </a>
+        </div>
+
+        <div>
+            <x-mary-theme-toggle class="btn btn-circle btn-ghost" />
+        </div>
     </div>
 </nav>
 
