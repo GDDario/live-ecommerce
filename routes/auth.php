@@ -7,8 +7,10 @@ use Livewire\Volt\Volt;
 Route::middleware('guest')->group(function () {
     Route::get('login', fn() => view('pages.login-page'))->name('login');
 
-    Volt::route('register', 'pages.auth.register')
-        ->name('register');
+    Route::get('register', fn() => view('pages.register-page'))->name('register');
+
+//    Volt::route('register', 'pages.auth.register')
+//        ->name('register');
 
 //    Volt::route('login', 'pages.auth.login')
 //        ->name('login');
