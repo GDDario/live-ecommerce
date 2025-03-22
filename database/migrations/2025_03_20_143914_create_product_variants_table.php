@@ -16,7 +16,7 @@ return new class extends Migration
             $table->uuid()->unique();
             $table->unsignedBigInteger('product_id');
             $table->unsignedInteger('variant_type_id');
-            $table->decimal(7, 2);
+            $table->decimal('price', 7, 2);
             $table->integer('quantity')->default(0);
             $table->json('images')->nullable();
             $table->timestamps();
