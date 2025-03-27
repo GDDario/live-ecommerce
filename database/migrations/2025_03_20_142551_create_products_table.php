@@ -16,12 +16,14 @@ return new class extends Migration
             $table->uuid()->unique();
             $table->string('name', 70);
             $table->unsignedInteger('category_id');
+            $table->unsignedInteger('brand_id')->nullable();
             $table->string('discount_code', 30)->nullable();
             $table->text('description');
             $table->timestamps();
             $table->softDeletes();
 
             $table->foreign('category_id')->references('id')->on('categories');
+            $table->foreign('brand_id')->references('id')->on('brands');
         });
     }
 

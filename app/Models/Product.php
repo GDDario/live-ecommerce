@@ -48,4 +48,9 @@ class Product extends Model
     {
         return $this->hasMany(ProductTag::class);
     }
+
+    public function brand(): BelongsTo
+    {
+        return $this->belongsTo(Brand::class);
+    }
 }
