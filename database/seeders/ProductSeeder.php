@@ -76,7 +76,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'M',
                             'price' => 99.90,
                             'quantity' => 50,
-                            'images' => ['https://via.placeholder.com/300/000000']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Branco',
@@ -84,7 +84,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 99.90,
                             'quantity' => 40,
-                            'images' => ['https://via.placeholder.com/300/ffffff']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Cinza',
@@ -92,7 +92,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'F',
                             'price' => 99.90,
                             'quantity' => 30,
-                            'images' => ['https://via.placeholder.com/300/808080']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ]
                     ]
                 ],
@@ -109,7 +109,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'M',
                             'price' => 129.90,
                             'quantity' => 30,
-                            'images' => ['https://via.placeholder.com/300/0000ff']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Amarelo',
@@ -117,7 +117,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'F',
                             'price' => 129.90,
                             'quantity' => 25,
-                            'images' => ['https://via.placeholder.com/300/ffff00']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Laranja',
@@ -125,7 +125,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 129.90,
                             'quantity' => 20,
-                            'images' => ['https://via.placeholder.com/300/ffa500']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ]
                     ]
                 ],
@@ -142,7 +142,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'F',
                             'price' => 119.90,
                             'quantity' => 35,
-                            'images' => ['https://via.placeholder.com/300/ff0000']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Cinza Claro',
@@ -150,7 +150,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'M',
                             'price' => 119.90,
                             'quantity' => 25,
-                            'images' => ['https://via.placeholder.com/300/d3d3d3']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Magenta',
@@ -158,7 +158,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 119.90,
                             'quantity' => 20,
-                            'images' => ['https://via.placeholder.com/300/ff00ff']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ]
                     ]
                 ]
@@ -180,7 +180,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'M',
                             'price' => 499.90,
                             'quantity' => 20,
-                            'images' => ['https://via.placeholder.com/150/000000']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Branco',
@@ -188,7 +188,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 499.90,
                             'quantity' => 15,
-                            'images' => ['https://via.placeholder.com/150/ffffff']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ]
                     ]
                 ],
@@ -205,7 +205,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 749.90,
                             'quantity' => 15,
-                            'images' => ['https://via.placeholder.com/150/ffffff']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Cinza escuro',
@@ -213,7 +213,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'F',
                             'price' => 749.90,
                             'quantity' => 10,
-                            'images' => ['https://via.placeholder.com/150/a9a9a9']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ]
                     ]
                 ],
@@ -230,7 +230,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'M',
                             'price' => 169.90,
                             'quantity' => 50,
-                            'images' => ['https://via.placeholder.com/150/0000ff']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Verde',
@@ -238,7 +238,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 169.90,
                             'quantity' => 35,
-                            'images' => ['https://via.placeholder.com/150/008000']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ]
                     ]
                 ]
@@ -260,7 +260,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'M',
                             'price' => 79.90,
                             'quantity' => 100,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Azul',
@@ -268,7 +268,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'M',
                             'price' => 79.90,
                             'quantity' => 80,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Preto',
@@ -276,7 +276,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 79.90,
                             'quantity' => 120,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ]
                     ]
                 ],
@@ -293,7 +293,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'M',
                             'price' => 199.90,
                             'quantity' => 40,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Cinza',
@@ -301,7 +301,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'F',
                             'price' => 199.90,
                             'quantity' => 35,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Cinza',
@@ -309,7 +309,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 199.90,
                             'quantity' => 50,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ]
                     ]
                 ],
@@ -326,7 +326,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 29.90,
                             'quantity' => 200,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Branco',
@@ -334,7 +334,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 29.90,
                             'quantity' => 180,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Branco',
@@ -342,7 +342,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 29.90,
                             'quantity' => 150,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ]
                     ]
                 ]
@@ -364,7 +364,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 89.90,
                             'quantity' => 60,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Dourada',
@@ -372,7 +372,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 99.90,
                             'quantity' => 50,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Branco',
@@ -380,7 +380,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 89.90,
                             'quantity' => 80,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ]
                     ]
                 ],
@@ -397,7 +397,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 129.90,
                             'quantity' => 40,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Dourado',
@@ -405,7 +405,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 139.90,
                             'quantity' => 30,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Branco',
@@ -413,7 +413,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'F',
                             'price' => 129.90,
                             'quantity' => 60,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ]
                     ]
                 ],
@@ -430,7 +430,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 119.90,
                             'quantity' => 70,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Dourado',
@@ -438,7 +438,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 129.90,
                             'quantity' => 60,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Branco',
@@ -446,7 +446,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 119.90,
                             'quantity' => 90,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ]
                     ]
                 ]
@@ -468,7 +468,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 159.90,
                             'quantity' => 50,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Bege',
@@ -476,7 +476,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 169.90,
                             'quantity' => 40,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Branco',
@@ -484,7 +484,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 159.90,
                             'quantity' => 70,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ]
                     ]
                 ],
@@ -501,7 +501,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 199.90,
                             'quantity' => 30,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Cinza',
@@ -509,7 +509,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 209.90,
                             'quantity' => 20,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Branco',
@@ -517,7 +517,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'M',
                             'price' => 199.90,
                             'quantity' => 40,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ]
                     ]
                 ],
@@ -534,7 +534,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 79.90,
                             'quantity' => 100,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Vermelha',
@@ -542,7 +542,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 89.90,
                             'quantity' => 90,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Branco',
@@ -550,7 +550,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 79.90,
                             'quantity' => 120,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ]
                     ]
                 ]
@@ -572,7 +572,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 299.90,
                             'quantity' => 50,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Azul',
@@ -580,7 +580,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 319.90,
                             'quantity' => 40,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ]
                     ]
                 ],
@@ -597,7 +597,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 249.90,
                             'quantity' => 30,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Prata',
@@ -605,7 +605,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 259.90,
                             'quantity' => 25,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ]
                     ]
                 ],
@@ -622,7 +622,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 499.90,
                             'quantity' => 20,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Marrom',
@@ -630,7 +630,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 519.90,
                             'quantity' => 15,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ]
                     ]
                 ]
@@ -652,7 +652,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 149.90,
                             'quantity' => 100,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Azul',
@@ -660,7 +660,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 159.90,
                             'quantity' => 80,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ]
                     ]
                 ],
@@ -677,7 +677,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'F',
                             'price' => 199.90,
                             'quantity' => 60,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Cinza',
@@ -685,7 +685,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'F',
                             'price' => 209.90,
                             'quantity' => 50,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ]
                     ]
                 ],
@@ -702,7 +702,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'M',
                             'price' => 119.90,
                             'quantity' => 150,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Azul',
@@ -710,7 +710,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'M',
                             'price' => 129.90,
                             'quantity' => 140,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ]
                     ]
                 ]
@@ -732,7 +732,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'M',
                             'price' => 299.90,
                             'quantity' => 40,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Azul',
@@ -740,7 +740,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'M',
                             'price' => 309.90,
                             'quantity' => 30,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ]
                     ]
                 ],
@@ -757,7 +757,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'F',
                             'price' => 359.90,
                             'quantity' => 25,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Cinza',
@@ -765,7 +765,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'F',
                             'price' => 369.90,
                             'quantity' => 20,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ]
                     ]
                 ],
@@ -782,7 +782,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 229.90,
                             'quantity' => 60,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Azul',
@@ -790,7 +790,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 239.90,
                             'quantity' => 50,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ]
                     ]
                 ]
@@ -812,7 +812,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 89.90,
                             'quantity' => 80,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Azul',
@@ -820,7 +820,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 94.90,
                             'quantity' => 60,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Branco',
@@ -828,7 +828,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 89.90,
                             'quantity' => 75,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ]
                     ]
                 ],
@@ -845,7 +845,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 69.90,
                             'quantity' => 50,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Cinza',
@@ -853,7 +853,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 74.90,
                             'quantity' => 45,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Branco',
@@ -861,7 +861,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'F',
                             'price' => 69.90,
                             'quantity' => 40,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ]
                     ]
                 ],
@@ -878,7 +878,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 29.90,
                             'quantity' => 100,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Branca',
@@ -886,7 +886,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 32.90,
                             'quantity' => 90,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ],
                         [
                             'color' => 'Branco',
@@ -894,7 +894,7 @@ class ProductSeeder extends Seeder
                             'gender' => 'U',
                             'price' => 29.90,
                             'quantity' => 120,
-                            'images' => ['https://via.placeholder.com/150']
+                            'images' => ['https://placehold.co/400x400/EEE/31343C']
                         ]
                     ]
                 ]
