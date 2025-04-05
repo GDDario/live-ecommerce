@@ -30,12 +30,12 @@ class UserSeeder extends Seeder
             [
                 'user_id' => $user->id,
                 'receiver_name' => 'John Doe',
-                'main' => true
+                'main' => true,
             ],
             [
                 'user_id' => $user->id,
                 'receiver_name' => 'Jeane Doe',
-                'main' => false
+                'main' => false,
             ],
         ];
 
@@ -56,7 +56,7 @@ class UserSeeder extends Seeder
 
             Address::factory()->create([
                 'user_id' => $user->id,
-                'main' => true
+                'main' => true,
             ]);
         }
     }

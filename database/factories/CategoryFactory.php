@@ -19,7 +19,7 @@ class CategoryFactory extends Factory
         'Sportswear',
         'Outerwear',
         'Headwear',
-        'Eyewear'
+        'Eyewear',
     ];
 
     /**

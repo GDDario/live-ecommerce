@@ -16,5 +16,5 @@
 
     <x-mary-button label="Registrar" class="btn-primary" type="submit" spinner="submit"/>
 
-    <a class="text-center" href="{{route('login')}}">Fazer login</a>
+    <a class="text-center" href="{{route('login')}}">Já tem conta? Fazer login</a>
 </form>

@@ -11,7 +11,7 @@ class Brand extends Model
     /** @use HasFactory<\Database\Factories\BrandFactory> */
     use HasFactory;
 
-    protected $attributes = [
+    protected $fillable = [
         'uuid',
         'name',
         'slug',

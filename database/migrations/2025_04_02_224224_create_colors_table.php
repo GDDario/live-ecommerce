@@ -7,11 +7,12 @@ use Illuminate\Support\Facades\Schema;
 return new class extends Migration {
     public function up(): void
     {
-        Schema::create('categories', function (Blueprint $table) {
+        Schema::create('colors', function (Blueprint $table) {
             $table->id();
-            $table->uuid()->unique();
-            $table->string('name', 70);
-            $table->string('slug', 70);
+            $table->string('name')->unique();
+            $table->char('hex_color', 6)->unique();
+            $table->boolean('being_used')->default(true);
+            $table->boolean('active')->default(true);
             $table->timestamps();
             $table->softDeletes();
         });
@@ -19,6 +20,6 @@ return new class extends Migration {
 
     public function down(): void
     {
-        Schema::dropIfExists('categories');
+        Schema::dropIfExists('colors');
     }
 };

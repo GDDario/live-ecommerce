@@ -5,9 +5,9 @@ namespace Database\Factories;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\VariantType>
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Size>
  */
-class VariantTypeFactory extends Factory
+class SizeFactory extends Factory
 {
     /**
      * Define the model's default state.
@@ -17,7 +17,6 @@ class VariantTypeFactory extends Factory
     public function definition(): array
     {
         return [
-            'name' => $this->faker->word(),
             'created_at' => now(),
         ];
     }

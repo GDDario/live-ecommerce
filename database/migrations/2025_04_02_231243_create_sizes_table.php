@@ -6,12 +6,16 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
+    /**
+     * Run the migrations.
+     */
     public function up(): void
     {
-        Schema::create('payment_statuses', function (Blueprint $table) {
-            $table->unsignedSmallInteger('id', true);
-            $table->uuid()->unique();
-            $table->string('name', 70);
+        Schema::create('sizes', function (Blueprint $table) {
+            $table->id();
+            $table->string('name');
+            $table->boolean('being_used')->default(true);
+            $table->boolean('active')->default(true);
             $table->timestamps();
             $table->softDeletes();
         });
@@ -19,6 +23,6 @@ return new class extends Migration
 
     public function down(): void
     {
-        Schema::dropIfExists('payment_statuses');
+        Schema::dropIfExists('sizes');
     }
 };

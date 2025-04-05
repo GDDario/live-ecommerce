@@ -6,15 +6,13 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
-    /**
-     * Run the migrations.
-     */
     public function up(): void
     {
         Schema::create('products', function (Blueprint $table) {
             $table->id();
             $table->uuid()->unique();
-            $table->string('name', 70);
+            $table->string('name', 100);
+            $table->string('slug', 110)->unique();
             $table->unsignedInteger('category_id');
             $table->unsignedInteger('brand_id')->nullable();
             $table->string('discount_code', 30)->nullable();
@@ -27,9 +25,6 @@ return new class extends Migration
         });
     }
 
-    /**
-     * Reverse the migrations.
-     */
     public function down(): void
     {
         Schema::dropIfExists('products');

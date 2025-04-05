@@ -15,9 +15,11 @@ class ProductVariant extends Model
     protected $fillable = [
         'uuid',
         'product_id',
-        'variant_type_id',
         'price',
         'quantity',
+        'color',
+        'size',
+        'gender',
         'images',
         'created_at',
         'updated_at',
@@ -29,6 +31,7 @@ class ProductVariant extends Model
     ];
 
     protected $casts = [
+        'images' => 'array',
         'created_at' => 'datetime',
         'updated_at' => 'datetime',
         'deleted_At' => 'datetime'
@@ -39,8 +42,13 @@ class ProductVariant extends Model
         return $this->belongsTo(Product::class);
     }
 
-    public function variantType(): BelongsTo
+    public function color(): BelongsTo
     {
-        return $this->belongsTo(VariantType::class);
+        return $this->belongsTo(Color::class);
+    }
+
+    public function size(): BelongsTo
+    {
+        return $this->belongsTo(Size::class);
     }
 }
