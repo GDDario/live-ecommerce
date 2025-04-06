@@ -5,6 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
@@ -45,9 +46,9 @@ class Product extends Model
         return $this->hasMany(ProductVariant::class);
     }
 
-    public function tags(): HasMany
+    public function tags(): BelongsToMany
     {
-        return $this->hasMany(ProductTag::class);
+        return $this->belongsToMany(Tag::class, 'product_tags')->using(ProductTag::class);
     }
 
     public function brand(): BelongsTo
