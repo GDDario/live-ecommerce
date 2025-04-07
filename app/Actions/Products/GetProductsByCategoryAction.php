@@ -20,6 +20,7 @@ class GetProductsByCategoryAction
         $products = Product::query()
             ->with('tags')
             ->with(['variants' => function($query) {
+                $query->with('color');
                 // Add filters
 //                $query->where('')
             }])

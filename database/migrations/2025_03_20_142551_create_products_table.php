@@ -15,8 +15,10 @@ return new class extends Migration
             $table->string('slug', 110)->unique();
             $table->unsignedInteger('category_id');
             $table->unsignedInteger('brand_id')->nullable();
-            $table->string('discount_code', 30)->nullable();
             $table->text('description');
+            $table->decimal('rating', 3, 2)->nullable();
+            $table->integer('reviews_count')->default(0);
+            $table->string('discount_code', 30)->nullable();
             $table->timestamps();
             $table->softDeletes();
 

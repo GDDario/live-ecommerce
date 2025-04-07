@@ -19,8 +19,10 @@ class Product extends Model
         'name',
         'slug',
         'category_id',
-        'discount_code',
         'description',
+        'rating',
+        'reviews_count',
+        'discount_code',
         'created_at',
         'updated_at',
         'deleted_at'

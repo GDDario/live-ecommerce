@@ -16,6 +16,7 @@ class ProductCard extends Component
 
     public function render()
     {
+//        dd($this->product);
         return view('livewire.components.product-card');
     }
 }

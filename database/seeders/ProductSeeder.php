@@ -76,9 +76,9 @@ class ProductSeeder extends Seeder
                             'price' => 99.90,
                             'quantity' => 50,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -88,9 +88,9 @@ class ProductSeeder extends Seeder
                             'price' => 99.90,
                             'quantity' => 40,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -100,9 +100,9 @@ class ProductSeeder extends Seeder
                             'price' => 99.90,
                             'quantity' => 30,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ]
                     ]
@@ -112,7 +112,7 @@ class ProductSeeder extends Seeder
                     'slug' => 'nike-dri-fit',
                     'brand' => 'Nike',
                     'discount_code' => 'NIKE20',
-                    'description' => 'Camiseta esportiva de alta performance com tecnologia Dri-FIT.',
+                    'description' => 'Camiseta esportiva de descriptiona performance com tecnologia Dri-FIT.',
                     'variants' => [
                         [
                             'color' => 'Azul',
@@ -121,9 +121,9 @@ class ProductSeeder extends Seeder
                             'price' => 129.90,
                             'quantity' => 30,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -133,9 +133,9 @@ class ProductSeeder extends Seeder
                             'price' => 129.90,
                             'quantity' => 25,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -145,9 +145,9 @@ class ProductSeeder extends Seeder
                             'price' => 129.90,
                             'quantity' => 20,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ]
                     ]
@@ -166,9 +166,9 @@ class ProductSeeder extends Seeder
                             'price' => 119.90,
                             'quantity' => 35,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -178,9 +178,9 @@ class ProductSeeder extends Seeder
                             'price' => 119.90,
                             'quantity' => 25,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -190,9 +190,9 @@ class ProductSeeder extends Seeder
                             'price' => 119.90,
                             'quantity' => 20,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ]
                     ]
@@ -216,9 +216,9 @@ class ProductSeeder extends Seeder
                             'price' => 499.90,
                             'quantity' => 20,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -228,9 +228,9 @@ class ProductSeeder extends Seeder
                             'price' => 499.90,
                             'quantity' => 15,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ]
                     ]
@@ -249,9 +249,9 @@ class ProductSeeder extends Seeder
                             'price' => 749.90,
                             'quantity' => 15,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -261,9 +261,9 @@ class ProductSeeder extends Seeder
                             'price' => 749.90,
                             'quantity' => 10,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ]
                     ]
@@ -282,9 +282,9 @@ class ProductSeeder extends Seeder
                             'price' => 169.90,
                             'quantity' => 50,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -294,9 +294,9 @@ class ProductSeeder extends Seeder
                             'price' => 169.90,
                             'quantity' => 35,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ]
                     ]
@@ -320,9 +320,9 @@ class ProductSeeder extends Seeder
                             'price' => 79.90,
                             'quantity' => 100,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -332,9 +332,9 @@ class ProductSeeder extends Seeder
                             'price' => 79.90,
                             'quantity' => 80,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -344,9 +344,9 @@ class ProductSeeder extends Seeder
                             'price' => 79.90,
                             'quantity' => 120,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ]
                     ]
@@ -365,9 +365,9 @@ class ProductSeeder extends Seeder
                             'price' => 199.90,
                             'quantity' => 40,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -377,9 +377,9 @@ class ProductSeeder extends Seeder
                             'price' => 199.90,
                             'quantity' => 35,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -389,9 +389,9 @@ class ProductSeeder extends Seeder
                             'price' => 199.90,
                             'quantity' => 50,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ]
                     ]
@@ -401,7 +401,7 @@ class ProductSeeder extends Seeder
                     'slug' => 'insider-performance-socks',
                     'brand' => 'Insider',
                     'discount_code' => 'INSIDER5',
-                    'description' => 'Meias de alta performance com tecnologia anti suor.',
+                    'description' => 'Meias de descriptiona performance com tecnologia anti suor.',
                     'variants' => [
                         [
                             'color' => 'Branco',
@@ -410,9 +410,9 @@ class ProductSeeder extends Seeder
                             'price' => 29.90,
                             'quantity' => 200,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -422,9 +422,9 @@ class ProductSeeder extends Seeder
                             'price' => 29.90,
                             'quantity' => 180,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -434,9 +434,9 @@ class ProductSeeder extends Seeder
                             'price' => 29.90,
                             'quantity' => 150,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ]
                     ]
@@ -460,9 +460,9 @@ class ProductSeeder extends Seeder
                             'price' => 89.90,
                             'quantity' => 60,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -472,9 +472,9 @@ class ProductSeeder extends Seeder
                             'price' => 99.90,
                             'quantity' => 50,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -484,9 +484,9 @@ class ProductSeeder extends Seeder
                             'price' => 89.90,
                             'quantity' => 80,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ]
                     ]
@@ -505,9 +505,9 @@ class ProductSeeder extends Seeder
                             'price' => 129.90,
                             'quantity' => 40,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -517,9 +517,9 @@ class ProductSeeder extends Seeder
                             'price' => 139.90,
                             'quantity' => 30,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -529,9 +529,9 @@ class ProductSeeder extends Seeder
                             'price' => 129.90,
                             'quantity' => 60,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ]
                     ]
@@ -550,9 +550,9 @@ class ProductSeeder extends Seeder
                             'price' => 119.90,
                             'quantity' => 70,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -562,9 +562,9 @@ class ProductSeeder extends Seeder
                             'price' => 129.90,
                             'quantity' => 60,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -574,9 +574,9 @@ class ProductSeeder extends Seeder
                             'price' => 119.90,
                             'quantity' => 90,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ]
                     ]
@@ -600,9 +600,9 @@ class ProductSeeder extends Seeder
                             'price' => 159.90,
                             'quantity' => 50,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -612,9 +612,9 @@ class ProductSeeder extends Seeder
                             'price' => 169.90,
                             'quantity' => 40,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -624,9 +624,9 @@ class ProductSeeder extends Seeder
                             'price' => 159.90,
                             'quantity' => 70,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ]
                     ]
@@ -645,9 +645,9 @@ class ProductSeeder extends Seeder
                             'price' => 199.90,
                             'quantity' => 30,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -657,9 +657,9 @@ class ProductSeeder extends Seeder
                             'price' => 209.90,
                             'quantity' => 20,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -669,9 +669,9 @@ class ProductSeeder extends Seeder
                             'price' => 199.90,
                             'quantity' => 40,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ]
                     ]
@@ -690,9 +690,9 @@ class ProductSeeder extends Seeder
                             'price' => 79.90,
                             'quantity' => 100,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -702,9 +702,9 @@ class ProductSeeder extends Seeder
                             'price' => 89.90,
                             'quantity' => 90,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -714,9 +714,9 @@ class ProductSeeder extends Seeder
                             'price' => 79.90,
                             'quantity' => 120,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ]
                     ]
@@ -740,9 +740,9 @@ class ProductSeeder extends Seeder
                             'price' => 299.90,
                             'quantity' => 50,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -752,9 +752,9 @@ class ProductSeeder extends Seeder
                             'price' => 319.90,
                             'quantity' => 40,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ]
                     ]
@@ -773,9 +773,9 @@ class ProductSeeder extends Seeder
                             'price' => 249.90,
                             'quantity' => 30,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -785,9 +785,9 @@ class ProductSeeder extends Seeder
                             'price' => 259.90,
                             'quantity' => 25,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ]
                     ]
@@ -806,9 +806,9 @@ class ProductSeeder extends Seeder
                             'price' => 499.90,
                             'quantity' => 20,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -818,9 +818,9 @@ class ProductSeeder extends Seeder
                             'price' => 519.90,
                             'quantity' => 15,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ]
                     ]
@@ -844,9 +844,9 @@ class ProductSeeder extends Seeder
                             'price' => 149.90,
                             'quantity' => 100,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -856,9 +856,9 @@ class ProductSeeder extends Seeder
                             'price' => 159.90,
                             'quantity' => 80,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ]
                     ]
@@ -877,9 +877,9 @@ class ProductSeeder extends Seeder
                             'price' => 199.90,
                             'quantity' => 60,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -889,9 +889,9 @@ class ProductSeeder extends Seeder
                             'price' => 209.90,
                             'quantity' => 50,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ]
                     ]
@@ -910,9 +910,9 @@ class ProductSeeder extends Seeder
                             'price' => 119.90,
                             'quantity' => 150,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -922,9 +922,9 @@ class ProductSeeder extends Seeder
                             'price' => 129.90,
                             'quantity' => 140,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ]
                     ]
@@ -948,9 +948,9 @@ class ProductSeeder extends Seeder
                             'price' => 299.90,
                             'quantity' => 40,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -960,9 +960,9 @@ class ProductSeeder extends Seeder
                             'price' => 309.90,
                             'quantity' => 30,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ]
                     ]
@@ -981,9 +981,9 @@ class ProductSeeder extends Seeder
                             'price' => 359.90,
                             'quantity' => 25,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -993,9 +993,9 @@ class ProductSeeder extends Seeder
                             'price' => 369.90,
                             'quantity' => 20,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ]
                     ]
@@ -1014,9 +1014,9 @@ class ProductSeeder extends Seeder
                             'price' => 229.90,
                             'quantity' => 60,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -1026,9 +1026,9 @@ class ProductSeeder extends Seeder
                             'price' => 239.90,
                             'quantity' => 50,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ]
                     ]
@@ -1052,9 +1052,9 @@ class ProductSeeder extends Seeder
                             'price' => 89.90,
                             'quantity' => 80,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -1064,9 +1064,9 @@ class ProductSeeder extends Seeder
                             'price' => 94.90,
                             'quantity' => 60,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -1076,9 +1076,9 @@ class ProductSeeder extends Seeder
                             'price' => 89.90,
                             'quantity' => 75,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ]
                     ]
@@ -1097,9 +1097,9 @@ class ProductSeeder extends Seeder
                             'price' => 69.90,
                             'quantity' => 50,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -1109,9 +1109,9 @@ class ProductSeeder extends Seeder
                             'price' => 74.90,
                             'quantity' => 45,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -1121,9 +1121,9 @@ class ProductSeeder extends Seeder
                             'price' => 69.90,
                             'quantity' => 40,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ]
                     ]
@@ -1142,9 +1142,9 @@ class ProductSeeder extends Seeder
                             'price' => 29.90,
                             'quantity' => 100,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -1154,9 +1154,9 @@ class ProductSeeder extends Seeder
                             'price' => 32.90,
                             'quantity' => 90,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ],
                         [
@@ -1166,9 +1166,9 @@ class ProductSeeder extends Seeder
                             'price' => 29.90,
                             'quantity' => 120,
                             'images' => [
-                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'alt' => 'Image description'],
-                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'alt' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/EEE/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/DDD/31343C', 'description' => 'Image description'],
+                                ['image' => 'https://placehold.co/400x400/CCC/31343C', 'description' => 'Image description'],
                             ],
                         ]
                     ]
