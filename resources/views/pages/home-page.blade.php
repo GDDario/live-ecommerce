@@ -10,7 +10,7 @@
         <p>Confira os nossos items em promoção essa semana. Não perca!</p>
 
         <div class="mt-6">
-            <livewire:components.products-grid/>
+            <livewire:components.products-grid category="clothing"/>
         </div>
     </section>
 
@@ -26,7 +26,7 @@
             moda!</p>
 
         <div class="mt-6">
-            <livewire:components.products-grid/>
+            <livewire:components.products-grid category="clothing"/>
         </div>
     </section>
 
