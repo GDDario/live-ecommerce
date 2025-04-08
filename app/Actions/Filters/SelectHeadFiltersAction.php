@@ -17,6 +17,7 @@ class SelectHeadFiltersAction
             ->where('active', true)
             ->whereNull('deleted_at')
             ->withCount('products')
+            ->where('products_count', '>', 0)
             ->orderBy('products_count', 'desc')
             ->get();
 
