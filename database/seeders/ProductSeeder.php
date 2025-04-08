@@ -196,8 +196,8 @@ class ProductSeeder extends Seeder
                             ],
                         ]
                     ]
-                ]
-            ]
+                ],
+            ],
         ],
         [
             'name' => 'Footwear',
@@ -1148,7 +1148,7 @@ class ProductSeeder extends Seeder
                             ],
                         ],
                         [
-                            'color' => 'Branca',
+                            'color' => 'Branco',
                             'size' => 'M',
                             'gender' => 'U',
                             'price' => 32.90,
@@ -1172,9 +1172,272 @@ class ProductSeeder extends Seeder
                             ],
                         ]
                     ]
-                ]
+                ],
+                [
+                    'name' => 'Boné Urban Style',
+                    'slug' => 'bone-urban-style',
+                    'brand' => 'UrbanWear',
+                    'discount_code' => 'URBAN10',
+                    'description' => 'Boné estiloso para uso urbano.',
+                    'variants' => [
+                        [
+                            'color' => 'Preto',
+                            'size' => 'U',
+                            'gender' => 'M',
+                            'price' => 49.90,
+                            'quantity' => 80,
+                            'images' => [
+                                ['image' => 'https://placehold.co/400x400/111/FFF', 'description' => 'Boné preto'],
+                                ['image' => 'https://placehold.co/400x400/222/FFF', 'description' => 'Vista lateral'],
+                            ],
+                        ],
+                        [
+                            'color' => 'Azul',
+                            'size' => 'U',
+                            'gender' => 'M',
+                            'price' => 52.90,
+                            'quantity' => 60,
+                            'images' => [
+                                ['image' => 'https://placehold.co/400x400/223/FFF', 'description' => 'Boné azul'],
+                                ['image' => 'https://placehold.co/400x400/334/FFF', 'description' => 'Vista lateral'],
+                            ],
+                        ]
+                    ]
+                ],
+                [
+                    'name' => 'Touca Térmica Pro',
+                    'slug' => 'touca-termica-pro',
+                    'brand' => 'ProGear',
+                    'discount_code' => 'PROGEAR5',
+                    'description' => 'Touca térmica para atividades esportivas em clima frio.',
+                    'variants' => [
+                        [
+                            'color' => 'Cinza',
+                            'size' => 'M',
+                            'gender' => 'U',
+                            'price' => 39.90,
+                            'quantity' => 70,
+                            'images' => [
+                                ['image' => 'https://placehold.co/400x400/555/FFF', 'description' => 'Touca cinza'],
+                            ],
+                        ],
+                        [
+                            'color' => 'Preto',
+                            'size' => 'G',
+                            'gender' => 'U',
+                            'price' => 42.90,
+                            'quantity' => 50,
+                            'images' => [
+                                ['image' => 'https://placehold.co/400x400/000/FFF', 'description' => 'Touca preta'],
+                            ],
+                        ]
+                    ]
+                ],
+                [
+                    'name' => 'Bandana Multiuso Adventure',
+                    'slug' => 'bandana-multiuso-adventure',
+                    'brand' => 'Explorer',
+                    'discount_code' => 'ADVENTURE12',
+                    'description' => 'Bandana versátil para trilhas e aventuras.',
+                    'variants' => [
+                        [
+                            'color' => 'Verde',
+                            'size' => 'U',
+                            'gender' => 'U',
+                            'price' => 19.90,
+                            'quantity' => 200,
+                            'images' => [
+                                ['image' => 'https://placehold.co/400x400/667755/FFF', 'description' => 'Bandana camuflada'],
+                            ],
+                        ],
+                        [
+                            'color' => 'Vermelha',
+                            'size' => 'U',
+                            'gender' => 'U',
+                            'price' => 21.90,
+                            'quantity' => 180,
+                            'images' => [
+                                ['image' => 'https://placehold.co/400x400/FF0000/FFF', 'description' => 'Bandana vermelha'],
+                            ],
+                        ]
+                    ]
+                ],
+                [
+                    'name' => 'Viseira Fitness Breeze',
+                    'slug' => 'viseira-fitness-breeze',
+                    'brand' => 'FitLife',
+                    'discount_code' => 'FIT10',
+                    'description' => 'Viseira leve e respirável para atividades físicas.',
+                    'variants' => [
+                        [
+                            'color' => 'Magenta',
+                            'size' => 'U',
+                            'gender' => 'F',
+                            'price' => 34.90,
+                            'quantity' => 90,
+                            'images' => [
+                                ['image' => 'https://placehold.co/400x400/FFC0CB/000', 'description' => 'Viseira rosa'],
+                            ],
+                        ],
+                        [
+                            'color' => 'Branca',
+                            'size' => 'U',
+                            'gender' => 'F',
+                            'price' => 34.90,
+                            'quantity' => 100,
+                            'images' => [
+                                ['image' => 'https://placehold.co/400x400/FFF/000', 'description' => 'Viseira branca'],
+                            ],
+                        ]
+                    ]
+                ],
+                [
+                    'name' => 'Boina Clássica Elegance',
+                    'slug' => 'boina-classica-elegance',
+                    'brand' => 'VintageWear',
+                    'discount_code' => 'CLASSIC15',
+                    'description' => 'Boina clássica para um visual sofisticado.',
+                    'variants' => [
+                        [
+                            'color' => 'Vermelho',
+                            'size' => 'M',
+                            'gender' => 'M',
+                            'price' => 59.90,
+                            'quantity' => 40,
+                            'images' => [
+                                ['image' => 'https://placehold.co/400x400/8B4513/FFF', 'description' => 'Boina marrom'],
+                            ],
+                        ],
+                        [
+                            'color' => 'Cinza',
+                            'size' => 'G',
+                            'gender' => 'M',
+                            'price' => 64.90,
+                            'quantity' => 35,
+                            'images' => [
+                                ['image' => 'https://placehold.co/400x400/808080/FFF', 'description' => 'Boina cinza'],
+                            ],
+                        ]
+                    ]
+                ],
+                [
+                    'name' => 'Chapéu Bucket Style',
+                    'slug' => 'chapeu-bucket-style',
+                    'brand' => 'StreetMood',
+                    'discount_code' => 'STREET8',
+                    'description' => 'Chapéu bucket para estilo urbano e casual.',
+                    'variants' => [
+                        [
+                            'color' => 'Branco',
+                            'size' => 'U',
+                            'gender' => 'U',
+                            'price' => 45.90,
+                            'quantity' => 60,
+                            'images' => [
+                                ['image' => 'https://placehold.co/400x400/F5F5DC/000', 'description' => 'Chapéu bege'],
+                            ],
+                        ],
+                        [
+                            'color' => 'Preto',
+                            'size' => 'U',
+                            'gender' => 'U',
+                            'price' => 47.90,
+                            'quantity' => 55,
+                            'images' => [
+                                ['image' => 'https://placehold.co/400x400/000000/FFF', 'description' => 'Chapéu preto'],
+                            ],
+                        ]
+                    ]
+                ],
+                [
+                    'name' => 'Faixa Esportiva DryTech',
+                    'slug' => 'faixa-esportiva-drytech',
+                    'brand' => 'ActiveLine',
+                    'discount_code' => 'ACTIVE7',
+                    'description' => 'Faixa que elimina o suor com eficiência.',
+                    'variants' => [
+                        [
+                            'color' => 'Azul',
+                            'size' => 'M',
+                            'gender' => 'U',
+                            'price' => 31.90,
+                            'quantity' => 95,
+                            'images' => [
+                                ['image' => 'https://placehold.co/400x400/ADD8E6/000', 'description' => 'Faixa azul clara'],
+                            ],
+                        ],
+                        [
+                            'color' => 'Verde',
+                            'size' => 'M',
+                            'gender' => 'U',
+                            'price' => 33.90,
+                            'quantity' => 85,
+                            'images' => [
+                                ['image' => 'https://placehold.co/400x400/39FF14/000', 'description' => 'Faixa verde neon'],
+                            ],
+                        ]
+                    ]
+                ],
+                [
+                    'name' => 'Touca Canelada Casual',
+                    'slug' => 'touca-canelada-casual',
+                    'brand' => 'StyleWay',
+                    'discount_code' => 'STYLE20',
+                    'description' => 'Touca de malha para o dia a dia com muito estilo.',
+                    'variants' => [
+                        [
+                            'color' => 'Preto',
+                            'size' => 'U',
+                            'gender' => 'F',
+                            'price' => 38.90,
+                            'quantity' => 45,
+                            'images' => [
+                                ['image' => 'https://placehold.co/400x400/800000/FFF', 'description' => 'Touca bordô'],
+                            ],
+                        ],
+                        [
+                            'color' => 'Amarelo',
+                            'size' => 'U',
+                            'gender' => 'F',
+                            'price' => 38.90,
+                            'quantity' => 50,
+                            'images' => [
+                                ['image' => 'https://placehold.co/400x400/FFDB58/000', 'description' => 'Touca mostarda'],
+                            ],
+                        ]
+                    ]
+                ],
+                [
+                    'name' => 'Chapéu Panamá Classic',
+                    'slug' => 'chapeu-panama-classic',
+                    'brand' => 'Elegance',
+                    'discount_code' => 'PANAMA10',
+                    'description' => 'Chapéu elegante para ocasiões especiais.',
+                    'variants' => [
+                        [
+                            'color' => 'Verde',
+                            'size' => 'M',
+                            'gender' => 'M',
+                            'price' => 89.90,
+                            'quantity' => 30,
+                            'images' => [
+                                ['image' => 'https://placehold.co/400x400/F8F4E3/000', 'description' => 'Chapéu palha'],
+                            ],
+                        ],
+                        [
+                            'color' => 'Branco',
+                            'size' => 'M',
+                            'gender' => 'M',
+                            'price' => 89.90,
+                            'quantity' => 25,
+                            'images' => [
+                                ['image' => 'https://placehold.co/400x400/FFFFFF/000', 'description' => 'Chapéu branco'],
+                            ],
+                        ]
+                    ]
+                ],
             ]
-        ]
+        ],
     ];
 
     public function run(): void
@@ -1189,7 +1452,7 @@ class ProductSeeder extends Seeder
             ]);
 
             foreach ($category['products'] as $product) {
-                $brand = Brand::where('name', $product['brand'])->first();
+                $brand = Brand::where('name', $product['brand'])->first() ?? Brand::all()->random()->first();
 
                 $productModel = Product::factory()->create([
                     'category_id' => $categoryModel->id,
