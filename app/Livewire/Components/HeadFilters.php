@@ -20,9 +20,9 @@ class HeadFilters extends Component
     {
         $result = $action->handle();
 
-        $this->colors = $result->colors->toArray();
-        $this->sizes = $result->sizes->toArray();
-        $this->genders = $result->genders->toArray();
+        $this->colors = $result->colors;
+        $this->sizes = $result->sizes;
+        $this->genders = $result->genders;
 
         $this->expanded = [
             'colors' => false,
@@ -36,8 +36,11 @@ class HeadFilters extends Component
         $this->expanded[$key] = !$this->expanded[$key];
     }
 
-    public function onSelect(int $id) {
-        $this->dispatch('reSearch', 'colors', $id);
+    public function onChangeColors()
+    {
+        Log::info('selected colors', $this->selectedColors);
+//        $this->dispatch('filter', 'colors', $id);
+        $this->dispatch('filter-colors', $this->selectedColors);
     }
 
     public function render()
